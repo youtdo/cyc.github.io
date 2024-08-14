@@ -4,135 +4,59 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->	
-	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="css/navbar.css"> 
     <link href="css/bootstrap.css" rel="stylesheet"><!-- Resource style -->
   	<link href="css/ekko-lightbox.css" rel="stylesheet" type="text/css">
 	<title>Chih-Yi Gallery | banner</title>
-        
-
-        <!-- for documentation only -->
-        <style type="text/css">
-            div.row > div > div.row {
-                margin-bottom: 15px;
-            }
-
-            html {
-                background-color: #02709e;
-            }
-            body {
-                background: #fefefe;
-                padding-bottom: 50px;
-            }
-
-            div.top-container {
-                padding-top:100px;
-                background-color: #02709e;
-                color:#ccc;
-            }
-            div.top-container h1 {
-                color:white;
-            }
-            div.top-container a {
-                color:#ccc;
-                border-bottom:1px dotted white;
-            }
-            div.top-container a:hover {
-                color: white;
-                cursor:pointer;
-                border-bottom:1px solid white;
-                text-decoration: none;
-            }
-            div.top-header {
-                margin-bottom:100px;
-            }
-
-            h2 {
-                display:inline-block;
-                padding:6px;
-                margin-top:100px;
-            }
-
-            h3 {
-                padding-bottom:5px;
-                margin-bottom:10px;
-                border-bottom:1px solid #f2f2f2;
-                margin-top: 50px;
-            }
-
-            h4:not(.modal-title) {
-                margin-top:25px;
-            }
-
-            figure {
-                position: relative;
-            }
-
-            figure figcaption {
-                font-size: 22px;
-                color: #fff;
-                text-decoration: none;
-                bottom: 10px;
-                right: 20px;
-                position: absolute;
-                background-color: #000;
-            }
-			code[data-code], code.block-code {
-                display:block;
-                overflow:scroll;
-                font-size:12px;
-				white-space: pre;
-			}
-
-            table {
-                font-size:12px;
-            }
-            .footer {
-                text-align: center;
-            }
-            .footer span {
-                margin-top:100px;
-                font-size:12px;
-                background-color:#02709e;
-                color:white;
-                display:inline-block;
-                padding:6px;
-            }
-            .footer span a {
-                color:#ccc;
-                border-bottom:1px dotted white;
-            }
-            .footer span a:hover {
-                cursor:pointer;
-                color: white;
-                border-bottom:1px solid white;
-                text-decoration: none;
-            }
-            a.anchorjs-link {
-                color:black;
-            }
-            a.anchorjs-link:hover {
-                color:#02709e;
-                text-decoration: none;
-            }
-        </style>
 </head>
 <body>
-<nav class="cd-vertical-nav">
-	<ul>
-		<li><a href="web.html" class="active"><span class="label">Web</span></a></li>
-		<li><a href="topics.html"><span class="label">Topics</span></a></li>
-		<li><a href="index.html#section3"><span class="label">About</span></a></li>
-	</ul>
-</nav><!-- .cd-vertical-nav -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Chih-Yi Gallery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top" aria-controls="top" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<button class="cd-nav-trigger cd-image-replace">Open navigation<span aria-hidden="true"></span></button>
+        <div class="collapse navbar-collapse" id="top">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown">
+                <a class="dropdown-item" href="2020-2024.html">2020-2024</a>
+                <a class="dropdown-item" href="2018-2019.html">2018-2019</a>
+                <a class="dropdown-item" href="2016-2018.html">2016-2018</a>
+				<a class="dropdown-item" href="2013-2016.html">2013-2016</a>
+                <a class="dropdown-item" href="2011-2013.html">2011-2013</a>
+                <a class="dropdown-item" href="2006-2010.html">2006-2010</a>
+              </div>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="lm.html">以閃亮之名</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="eva.html">Eva</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="logo.html">Logo</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="print.html">Print</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link active" href="banner.html">Banner</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<section id="section1" class="cd-section">
-	<div class="content-wrapper">
-		<h1>Chih-Yi Gallery</h1>
-		<h2>Banner design</h2>
-<!--		1-->
-		<div class="album py-5 bg-light">
+	
+<div class="content-wrapper">
+<h1>Banner design</h1>
+<div class="album py-5 bg-light">
 			<div class="container">
 			<div class="row justify-content-center">
                             <div class="col-md-8">
@@ -396,23 +320,27 @@
                  <img src="images/banner/L1banner1.jpg" class="img-fluid" alt="">
                  </a>
 				</div>
-
 				
             </div>
-                </div>              
+             </div>              
 		
-
     </div>
   </div>
+<div class="container">
+	 <footer class="footer">
+		 <p>&copy; Chih-Yi Chen</p>
+		  <span><a href="#">Back to top▲</a></span>
+      </footer>
+		
 	</div>
-</section><!-- cd-section -->
-        <script src="js/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
-        <script src="js/popper.min.js" crossorigin="anonymous"></script>
-        <script src="js/bootstrap-4.0.0-beta.min.js" crossorigin="anonymous"></script>
-       <script src="js/ekko-lightbox.js"></script>
+</div>
 
-        <!-- for documentation only -->
-        <script src="js/anchor.min.js"></script>
+<script src="js/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="js/popper.min.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap-4.0.0-beta.min.js" crossorigin="anonymous"></script>
+<script src="js/ekko-lightbox.js"></script>
+ <!-- for documentation only -->
+ <script src="js/anchor.min.js"></script>
  <script type="text/javascript">
             $(document).ready(function ($) {
                 // delegate calls to data-toggle="lightbox"
@@ -452,9 +380,6 @@
 
             });
         </script>
-
-<script src="js/modernizr.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
