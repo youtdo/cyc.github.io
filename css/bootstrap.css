@@ -119,7 +119,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
   }
 }
 
@@ -241,7 +241,7 @@ sup {
 
 a {
   color: var(--bs-link-color);
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -663,7 +663,8 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+	max-width: 1320px;
+	clear: none;
   }
 }
 .row {
@@ -4237,9 +4238,10 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  color: var(--bs-card-color);
+	flex: 1 1 auto;
+	padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+	color: var(--bs-card-color);
+	text-align: center;
 }
 
 .card-title {
@@ -5398,7 +5400,7 @@ textarea.form-control-lg {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: var(--bs-modal-padding);
+/*  padding: var(--bs-modal-padding);*/
 }
 
 .modal-footer {
